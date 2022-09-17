@@ -42,7 +42,7 @@ const Header = () => {
           <ul>
             {data.navLinks.map((navLink, index) => (
               <>
-                <li onMouseEnter={() => dropDownFunc(index)}> <a href="#">{navLink.title}</a> </li>
+                <li onMouseEnter={() => dropDownFunc(index)}> <a href="https://pdp.uz">{navLink.title}</a> </li>
               </>
             ))}
           </ul>
